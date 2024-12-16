@@ -3,12 +3,14 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   src: url();
 }
+
 :root {
   --dark-blue: #1f2937;
   --super-white: #f9faf8;
   --lig-white: #e5e7eb;
   --btn-blue: #3882f6;
 }
+
 /* Styles for the 1st section of the page  */
 .navi-bar {
   display: flex;
@@ -109,20 +111,21 @@
   display: flex;
   flex-direction: row;
   padding: 50px 250px 80px 250px;
-  justify-content:space-between;
+  justify-content: space-between;
   gap: 10px;
 }
 
 .information h2 {
   color: var(--dark-blue);
-  font-size: 36px; 
+  font-size: 36px;
   font-weight: 900;
-  text-align: center ;
+  text-align: center;
 }
+
 .service p {
   color: var(--dark-blue);
   font-size: 18px;
-  text-align:left; 
+  text-align: left;
 }
 
 .img-info div {
@@ -133,15 +136,16 @@
 /* section 3 */
 
 .section-3 {
-  background-color:var(--lig-white) ;
-  padding: 50px 250px 80px 250px;
+  background-color: var(--lig-white);
+  padding: 50px 280px 80px 280px;
   display: flex;
   flex-direction: column;
 }
+
 .section-3 #quote {
   font-size: 36px;
   font-style: italic;
-  font-weight:light;
+  font-weight: light;
   color: var(--dark-blue);
   text-align: justify;
 
@@ -153,6 +157,64 @@
   font-weight: 900;
   color: var(--dark-blue);
   position: relative;
-  top:-40px;
+  top: -40px;
+}
 
+/* section-4 */
+.section-4 {
+  padding: 50px 280px 80px 280px;
+}
+.action-ctn {
+  background-color: var(--btn-blue);
+  padding: 5px 30px 5px 100px; 
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: -60px;
+}
+
+.action-ctn div {
+    flex:1 1 auto;
+}
+
+.action-ctn .call-text {
+  flex:2 1 0%;
+}
+
+
+#call-highlight {
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--super-white);
+}
+
+#call-normal {
+  color: var(--lig-white);
+  font-size: 18px;
+  position: relative;
+  top: -20px;
+}
+
+#sign-up-btn-2 {
+  background-color: var(---blue);
+  color: var(--super-white);
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  width: 130px;
+  border: 2px solid var(--super-white);
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+  left: 180px
+}
+
+.copyright {
+  background-color: var(--dark-blue);
+}
+.copyright p {
+  color: var(--lig-white);
+  font-size: 18px;
+  text-align: center;
+  padding:20px 0px 20px 0px;
 }
